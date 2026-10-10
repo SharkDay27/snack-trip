@@ -1,0 +1,5 @@
+const assert=require('node:assert/strict');const {Game,config}=require('./dist/engine.js');
+for(let l=1;l<=100;l++){let c=config(l);for(let i=0;i<49;i++){if(!c.mask[i])assert.equal(c.ice[i]+c.boxes[i]+c.jelly[i],0);if(c.boxes[i])assert.equal(c.ice[i]+c.jelly[i],0);}if(l>=31)assert(c.ice.some(Boolean)&&c.boxes.some(Boolean)&&c.jelly.some(Boolean));if(l<6)assert(!c.ice.some(Boolean)&&!c.boxes.some(Boolean)&&!c.jelly.some(Boolean));}
+let g=new Game(90,777),i=g.ice.findIndex((v,i)=>v&&g.jelly[i]);assert(i>=0);g.ice[i]=1;g.jelly[i]=1;g.clear([i]);assert.equal(g.ice[i],0);assert.equal(g.jelly[i],1);g.fall();g.clear([i]);assert.equal(g.jelly[i],0);
+for(let l of [7,8,9,10]){let g=new Game(l,444);g.ice.fill(0);g.boxes.fill(0);g.jelly.fill(0);g.got=g.cfg.target;g.score=g.cfg.scoreTarget;assert(g.won());if(g.cfg.scoreTarget){g.score--;assert(!g.won());}if(g.cfg.target){g.got--;assert(!g.won());}}
+let c=config(100);console.log('PASS: 100 level obstacle placements, mixed obstacles, layered ice/jelly and all goal modes. Final level layers:',c.ice.reduce((a,b)=>a+b)+c.boxes.reduce((a,b)=>a+b)+c.jelly.reduce((a,b)=>a+b));
