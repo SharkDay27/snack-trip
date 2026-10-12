@@ -1,3 +1,15 @@
-const assert=require('node:assert/strict');const {Game,config}=require('./dist/engine.js');let wins=0,played=0,cascades=0;
-for(let l=1;l<=100;l++){for(let seed=1;seed<=5;seed++){let g=new Game(l,seed*893+l);assert.equal(g.match().length,0);assert(g.legal().length);assert(g.cfg.food<g.cfg.colors);assert(g.cfg.mask.filter(Boolean).length>=35);for(let turn=0;turn<g.cfg.moves&&!g.won();turn++){let best=null,bestValue=-1;for(let pair of g.legal()){g.swap(...pair);let m=g.match();let value=m.length+m.filter(i=>g.b[i]===g.cfg.food).length*5+m.filter(i=>g.ice[i]).length*4+m.filter(i=>[i-7,i+7,i-1,i+1].some(j=>g.adj(i,j)&&g.boxes[j])).length*3;g.swap(...pair);if(value>bestValue){best=pair;bestValue=value;}}assert(best);g.swap(...best);g.moves--;let m=g.match(),n=0;while(m.length){assert(++n<200);g.clear(m);g.fall();m=g.match();cascades++;}for(let i=0;i<49;i++)if(g.active(i))assert(g.b[i]>=0&&g.b[i]<g.cfg.colors);if(!g.legal().length)g.shuffle();}played++;if(g.won())wins++;}}
-let g=new Game(100,42);for(let i=0;i<49;i++)if(g.cfg.mask[i]){g.boxes[i]=0;g.ice[i]=0;g.jelly[i]=0;}g.got=g.cfg.target;g.score=g.cfg.scoreTarget;assert(g.won());g=new Game(21,5);let box=g.boxes.findIndex(Boolean);g.clear([box]);assert.equal(g.boxes[box],0);g.fall();assert(g.b[box]>=0);console.log(JSON.stringify({levels:100,simulatedGames:played,winsWithoutTools:wins,cascades,checks:'valid start, legal moves, all food targets reachable, falling, obstacles, win state'}));
+const assert=require('node:assert/strict');const {Game,config}=require('./dist/engine.js');const {play}=require('./simulate.cjs');const fs=require('node:fs');
+let wins=0,toolWins=0,cascades=0,games=0;const byLevel=[],shapes=new Set,signatures=new Set;
+for(let l=1;l<=100;l++){
+ const c=config(l);shapes.add(c.shape);assert.equal(c.size,c.cols*c.rows);assert([7,9].includes(c.rows));assert(c.food<c.colors);assert(c.moves>=18&&c.moves<=64);assert(c.mask.filter(Boolean).length>=39);
+ signatures.add(JSON.stringify([c.layout,c.ice,c.boxes,c.jelly,c.target,c.scoreTarget,c.food,c.colors]));
+ for(let i=0;i<c.size;i++){assert(c.ice[i]>=0&&c.boxes[i]>=0&&c.jelly[i]>=0);if(!c.mask[i])assert.equal(c.ice[i]+c.boxes[i]+c.jelly[i],0);if(c.boxes[i])assert.equal(c.ice[i]+c.jelly[i],0);}
+ let w=0,t=0;for(let s=0;s<12;s++){
+  const seed=923983+l*1703+s*3167;
+  const a=play(l,seed,c.moves,true,false),b=play(l,seed,c.moves,true,true);games+=2;cascades+=a.cascades+b.cascades;w+=+a.won;t+=+b.won;
+ }
+ assert(w>0,'No unassisted validation wins on level '+l);assert(t>=6,'Low validation wins with free tools on level '+l+': '+t+'/12');wins+=w;toolWins+=t;byLevel.push({level:l,moves:c.moves,unassisted:w,withFreeTools:t,gamesPerPolicy:12});
+ if(l%10===0)console.log('Verified '+l+'/100');
+}
+assert.equal(shapes.size,18);assert.equal(signatures.size,100);
+const summary={levels:100,shapes:18,simulatedGames:games,cascades,unassistedWins:wins,withFreeToolWins:toolWins,gamesPerPolicy:1200,method:'Goal-aware greedy simulation with seeded randomness; not a human win-rate estimate',byLevel};fs.writeFileSync('validation-report.json',JSON.stringify(summary,null,2));console.log(JSON.stringify({...summary,byLevel:undefined}));

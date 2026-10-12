@@ -1,0 +1,1006 @@
+{
+  "method": "Seeded goal-aware greedy policy; 12% second-best moves, no boosters. Calibration seeds are separate from validation. These results are not human win-rate estimates.",
+  "games": 1856,
+  "levels": [
+    {
+      "level": 1,
+      "shape": "方形野餐",
+      "moves": 18,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 0
+    },
+    {
+      "level": 2,
+      "shape": "方形野餐",
+      "moves": 18,
+      "medianTurns": 5,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 0
+    },
+    {
+      "level": 3,
+      "shape": "方形野餐",
+      "moves": 18,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 0
+    },
+    {
+      "level": 4,
+      "shape": "方形野餐",
+      "moves": 18,
+      "medianTurns": 5,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 0
+    },
+    {
+      "level": 5,
+      "shape": "菱形餐桌",
+      "moves": 18,
+      "medianTurns": 5,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 0
+    },
+    {
+      "level": 6,
+      "shape": "心形莓園",
+      "moves": 18,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 3
+    },
+    {
+      "level": 7,
+      "shape": "沙漏點心",
+      "moves": 18,
+      "medianTurns": 1,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 3
+    },
+    {
+      "level": 8,
+      "shape": "沙漏點心",
+      "moves": 18,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 9,
+      "shape": "沙漏點心",
+      "moves": 18,
+      "medianTurns": 7,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 10,
+      "shape": "層層蛋糕",
+      "moves": 18,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 11,
+      "shape": "菱形餐桌",
+      "moves": 24,
+      "medianTurns": 9,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 12,
+      "shape": "蝴蝶花園",
+      "moves": 24,
+      "medianTurns": 3,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 13,
+      "shape": "雙盤下午茶",
+      "moves": 29,
+      "medianTurns": 11,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 14,
+      "shape": "蘑菇小屋",
+      "moves": 31,
+      "medianTurns": 14,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 15,
+      "shape": "方形野餐",
+      "moves": 24,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 4
+    },
+    {
+      "level": 16,
+      "shape": "心形莓園",
+      "moves": 24,
+      "medianTurns": 9,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 17,
+      "shape": "錯層餐盤",
+      "moves": 24,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 18,
+      "shape": "甜甜圈庭院",
+      "moves": 27,
+      "medianTurns": 10,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 19,
+      "shape": "雙翼廚房",
+      "moves": 26,
+      "medianTurns": 13,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 20,
+      "shape": "四葉點心",
+      "moves": 24,
+      "medianTurns": 9,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 21,
+      "shape": "杯形午茶",
+      "moves": 25,
+      "medianTurns": 15,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 22,
+      "shape": "十字野餐",
+      "moves": 24,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 23,
+      "shape": "窄橋便當",
+      "moves": 24,
+      "medianTurns": 8,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 7
+    },
+    {
+      "level": 24,
+      "shape": "高腳甜品",
+      "moves": 29,
+      "medianTurns": 14,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 25,
+      "shape": "沙漏點心",
+      "moves": 24,
+      "medianTurns": 9,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 26,
+      "shape": "菱形餐桌",
+      "moves": 24,
+      "medianTurns": 10,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 27,
+      "shape": "蝴蝶花園",
+      "moves": 24,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 28,
+      "shape": "雙盤下午茶",
+      "moves": 29,
+      "medianTurns": 12,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 29,
+      "shape": "蘑菇小屋",
+      "moves": 27,
+      "medianTurns": 15,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 30,
+      "shape": "方形野餐",
+      "moves": 24,
+      "medianTurns": 4,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 8
+    },
+    {
+      "level": 31,
+      "shape": "雙翼廚房",
+      "moves": 37,
+      "medianTurns": 18,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 11
+    },
+    {
+      "level": 32,
+      "shape": "四葉點心",
+      "moves": 24,
+      "medianTurns": 9,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 13
+    },
+    {
+      "level": 33,
+      "shape": "階梯派對",
+      "moves": 24,
+      "medianTurns": 11,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 13
+    },
+    {
+      "level": 34,
+      "shape": "層層蛋糕",
+      "moves": 24,
+      "medianTurns": 14,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 13
+    },
+    {
+      "level": 35,
+      "shape": "十字野餐",
+      "moves": 24,
+      "medianTurns": 8,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 13
+    },
+    {
+      "level": 36,
+      "shape": "杯形午茶",
+      "moves": 27,
+      "medianTurns": 17,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 13
+    },
+    {
+      "level": 37,
+      "shape": "甜品拱門",
+      "moves": 62,
+      "medianTurns": 17,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 5,
+      "obstacleLayers": 9
+    },
+    {
+      "level": 38,
+      "shape": "甜甜圈庭院",
+      "moves": 31,
+      "medianTurns": 12,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 14
+    },
+    {
+      "level": 39,
+      "shape": "高腳甜品",
+      "moves": 29,
+      "medianTurns": 18,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 14
+    },
+    {
+      "level": 40,
+      "shape": "沙漏點心",
+      "moves": 24,
+      "medianTurns": 12,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 15
+    },
+    {
+      "level": 41,
+      "shape": "蘑菇小屋",
+      "moves": 43,
+      "medianTurns": 17,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 15
+    },
+    {
+      "level": 42,
+      "shape": "方形野餐",
+      "moves": 24,
+      "medianTurns": 8,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 15
+    },
+    {
+      "level": 43,
+      "shape": "心形莓園",
+      "moves": 24,
+      "medianTurns": 10,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 15
+    },
+    {
+      "level": 44,
+      "shape": "錯層餐盤",
+      "moves": 24,
+      "medianTurns": 12,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 15
+    },
+    {
+      "level": 45,
+      "shape": "甜甜圈庭院",
+      "moves": 27,
+      "medianTurns": 13,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 16
+    },
+    {
+      "level": 46,
+      "shape": "雙翼廚房",
+      "moves": 24,
+      "medianTurns": 15,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 16
+    },
+    {
+      "level": 47,
+      "shape": "四葉點心",
+      "moves": 24,
+      "medianTurns": 14,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 16
+    },
+    {
+      "level": 48,
+      "shape": "階梯派對",
+      "moves": 24,
+      "medianTurns": 13,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 18
+    },
+    {
+      "level": 49,
+      "shape": "層層蛋糕",
+      "moves": 24,
+      "medianTurns": 13,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 18
+    },
+    {
+      "level": 50,
+      "shape": "十字野餐",
+      "moves": 24,
+      "medianTurns": 11,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 18
+    },
+    {
+      "level": 51,
+      "shape": "高腳甜品",
+      "moves": 25,
+      "medianTurns": 18,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 18
+    },
+    {
+      "level": 52,
+      "shape": "沙漏點心",
+      "moves": 24,
+      "medianTurns": 11,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 19
+    },
+    {
+      "level": 53,
+      "shape": "菱形餐桌",
+      "moves": 24,
+      "medianTurns": 12,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 19
+    },
+    {
+      "level": 54,
+      "shape": "蝴蝶花園",
+      "moves": 32,
+      "medianTurns": 23,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 19
+    },
+    {
+      "level": 55,
+      "shape": "雙盤下午茶",
+      "moves": 58,
+      "medianTurns": 19,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 1,
+      "obstacleLayers": 16
+    },
+    {
+      "level": 56,
+      "shape": "雙盤下午茶",
+      "moves": 47,
+      "medianTurns": 24,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 22
+    },
+    {
+      "level": 57,
+      "shape": "方形野餐",
+      "moves": 24,
+      "medianTurns": 11,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 22
+    },
+    {
+      "level": 58,
+      "shape": "心形莓園",
+      "moves": 24,
+      "medianTurns": 13,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 22
+    },
+    {
+      "level": 59,
+      "shape": "錯層餐盤",
+      "moves": 24,
+      "medianTurns": 14,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 23
+    },
+    {
+      "level": 60,
+      "shape": "甜甜圈庭院",
+      "moves": 28,
+      "medianTurns": 20,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 23
+    },
+    {
+      "level": 61,
+      "shape": "層層蛋糕",
+      "moves": 24,
+      "medianTurns": 14,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 23
+    },
+    {
+      "level": 62,
+      "shape": "十字野餐",
+      "moves": 25,
+      "medianTurns": 17,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 23
+    },
+    {
+      "level": 63,
+      "shape": "杯形午茶",
+      "moves": 34,
+      "medianTurns": 22,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 23
+    },
+    {
+      "level": 64,
+      "shape": "甜品拱門",
+      "moves": 50,
+      "medianTurns": 24,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 26
+    },
+    {
+      "level": 65,
+      "shape": "窄橋便當",
+      "moves": 32,
+      "medianTurns": 19,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 28
+    },
+    {
+      "level": 66,
+      "shape": "高腳甜品",
+      "moves": 46,
+      "medianTurns": 31,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 29
+    },
+    {
+      "level": 67,
+      "shape": "沙漏點心",
+      "moves": 40,
+      "medianTurns": 25,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 28
+    },
+    {
+      "level": 68,
+      "shape": "菱形餐桌",
+      "moves": 24,
+      "medianTurns": 11,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 29
+    },
+    {
+      "level": 69,
+      "shape": "蝴蝶花園",
+      "moves": 50,
+      "medianTurns": 31,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 29
+    },
+    {
+      "level": 70,
+      "shape": "雙盤下午茶",
+      "moves": 48,
+      "medianTurns": 19,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 3,
+      "obstacleLayers": 13
+    },
+    {
+      "level": 71,
+      "shape": "錯層餐盤",
+      "moves": 24,
+      "medianTurns": 17,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 29
+    },
+    {
+      "level": 72,
+      "shape": "甜甜圈庭院",
+      "moves": 44,
+      "medianTurns": 32,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 29
+    },
+    {
+      "level": 73,
+      "shape": "雙翼廚房",
+      "moves": 24,
+      "medianTurns": 15,
+      "calibrationWins": 16,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 74,
+      "shape": "窄橋便當",
+      "moves": 40,
+      "medianTurns": 27,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 75,
+      "shape": "階梯派對",
+      "moves": 47,
+      "medianTurns": 29,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 76,
+      "shape": "層層蛋糕",
+      "moves": 27,
+      "medianTurns": 19,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 77,
+      "shape": "十字野餐",
+      "moves": 24,
+      "medianTurns": 16,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 78,
+      "shape": "杯形午茶",
+      "moves": 41,
+      "medianTurns": 31,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 79,
+      "shape": "甜品拱門",
+      "moves": 51,
+      "medianTurns": 37,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 80,
+      "shape": "窄橋便當",
+      "moves": 29,
+      "medianTurns": 24,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 34
+    },
+    {
+      "level": 81,
+      "shape": "蝴蝶花園",
+      "moves": 58,
+      "medianTurns": 41,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 34
+    },
+    {
+      "level": 82,
+      "shape": "雙盤下午茶",
+      "moves": 57,
+      "medianTurns": 20,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 3,
+      "obstacleLayers": 16
+    },
+    {
+      "level": 83,
+      "shape": "蘑菇小屋",
+      "moves": 29,
+      "medianTurns": 16,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 27
+    },
+    {
+      "level": 84,
+      "shape": "方形野餐",
+      "moves": 37,
+      "medianTurns": 26,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 34
+    },
+    {
+      "level": 85,
+      "shape": "心形莓園",
+      "moves": 24,
+      "medianTurns": 19,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 34
+    },
+    {
+      "level": 86,
+      "shape": "錯層餐盤",
+      "moves": 25,
+      "medianTurns": 18,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 34
+    },
+    {
+      "level": 87,
+      "shape": "甜甜圈庭院",
+      "moves": 58,
+      "medianTurns": 43,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 1,
+      "obstacleLayers": 28
+    },
+    {
+      "level": 88,
+      "shape": "雙翼廚房",
+      "moves": 29,
+      "medianTurns": 21,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 33
+    },
+    {
+      "level": 89,
+      "shape": "四葉點心",
+      "moves": 35,
+      "medianTurns": 22,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 36
+    },
+    {
+      "level": 90,
+      "shape": "階梯派對",
+      "moves": 34,
+      "medianTurns": 26,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 35
+    },
+    {
+      "level": 91,
+      "shape": "甜品拱門",
+      "moves": 51,
+      "medianTurns": 35,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 39
+    },
+    {
+      "level": 92,
+      "shape": "窄橋便當",
+      "moves": 36,
+      "medianTurns": 24,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 39
+    },
+    {
+      "level": 93,
+      "shape": "高腳甜品",
+      "moves": 29,
+      "medianTurns": 21,
+      "calibrationWins": 15,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 38
+    },
+    {
+      "level": 94,
+      "shape": "沙漏點心",
+      "moves": 31,
+      "medianTurns": 26,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 34
+    },
+    {
+      "level": 95,
+      "shape": "菱形餐桌",
+      "moves": 24,
+      "medianTurns": 17,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 39
+    },
+    {
+      "level": 96,
+      "shape": "階梯派對",
+      "moves": 39,
+      "medianTurns": 33,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 41
+    },
+    {
+      "level": 97,
+      "shape": "雙盤下午茶",
+      "moves": 54,
+      "medianTurns": 22,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 3,
+      "obstacleLayers": 18
+    },
+    {
+      "level": 98,
+      "shape": "蘑菇小屋",
+      "moves": 38,
+      "medianTurns": 27,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 39
+    },
+    {
+      "level": 99,
+      "shape": "方形野餐",
+      "moves": 34,
+      "medianTurns": 26,
+      "calibrationWins": 14,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 31
+    },
+    {
+      "level": 100,
+      "shape": "心形莓園",
+      "moves": 35,
+      "medianTurns": 22,
+      "calibrationWins": 13,
+      "calibrationGames": 16,
+      "adjustments": 0,
+      "obstacleLayers": 40
+    }
+  ]
+}

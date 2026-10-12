@@ -1,14 +1,30 @@
-# 點心旅行
-A Traditional Chinese, mobile-first match-three game with 100 deterministic level configurations, eight board silhouettes, ice and crate obstacles, procedural Web Audio effects, animated swaps and cascades, three free boosters, hints and local progress.
+# 點心旅行 · Snack Trip
 
-Static entry: dist/index.html. No build step or runtime dependency. Serve dist with any static host.
+手機優先的繁體中文三消遊戲，100 關依序解鎖。
 
-Run `node test.cjs` to simulate 500 games across all 100 levels and check board, refill, obstacle and victory invariants. Browser and physical-device QA have not been run in the creation environment.
+直接遊玩：https://sharkday27.github.io/snack-trip/
 
-Art: image-generated six-food icon atlas based on the user's flat circular icon reference. Prompt: six matte colored circular badges with minimal food pictograms, no outlines, arranged in a 3x2 atlas. Asset: dist/foods.webp.
+## 新版關卡
 
-Progress is local to the browser. Audio starts after a user gesture. No accounts, ads, purchases or analytics.
+18 種棋盤：方形、沙漏、十字、環形、雙盤、窄橋、階梯、心形、菱形、杯形、雙翼、蘑菇、高腳甜品、層層蛋糕、錯層餐盤、蝴蝶、拱門、四葉。
 
-Update v2: fixed corner close controls on all dialogs, keyboard dismissal/focus containment, four goal configurations, progressive patterned ice/crate/jelly obstacles with layered coverage. Run `node obstacles-test.cjs` for focused goal and obstacle checks.
+保持 7 欄，關卡使用 7 或 9 排。空洞不能交換，也不能跨越空洞消除；每段直欄獨立補充食物。障礙有冰層、木箱、果醬，後期加入雙層及冰層覆蓋果醬。木箱配置保留消除空間，難以消除的邊角不放收尾障礙。
 
-Update v3: chain-dependent visual effects with five tiers (1, 2–3, 4–5, 6–7, 8+), expanding rings, confetti and radial celebrations. Effects are capped at 80 particles, old layers are replaced, and reduced-motion preferences disable particles. Pure presentation changes do not change scoring or move counts.
+任務交替採用收集、清障礙、分數、混合目標。前段 4 種食物，中段 5 種，後段部分關卡使用 6 種。步數逐關校準，不以固定公式增加；每關仍有 3 次敲格、2 次清排、2 次重排，使用不扣步數。
+
+## 操作與效果
+
+滑動交換或依序點兩格；無效交換不扣步數。連鎖演出有五個華麗程度，搭配 Web Audio 音效；支援減少動態效果。視窗右上角 X 固定可關閉。進度與音量儲存在瀏覽器，不需要帳號。
+
+## 開發與驗證
+
+靜態入口 `dist/index.html`，根目錄入口供 GitHub Pages 使用。無建置或執行依賴。
+
+- `node design-levels.cjs`：重新產生形狀與障礙配置。
+- `node calibrate-levels.cjs`：用独立種子調整目標和步數，輸出 `balance-report.json`。
+- `node test.cjs`：2,400 場驗證（各 1,200 場有／無免費道具），输出 `validation-report.json`。
+- `node obstacles-test.cjs`：邊界、補充掉落、分層障礙、目標判定。
+
+校準採用帶隨機性的目標導向貪婪策略，沒有使用免費道具；驗證採用不同種子並比較免費道具的影響。數據供相對難度調整，不能視為真人勝率。每局食物排列隨機，因此同關仍會有不同體驗。
+
+圖示為影像生成的六食物圖集 `dist/foods.webp`；遊戲沒有廣告、購買、帳號或分析追蹤。

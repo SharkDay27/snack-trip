@@ -1,0 +1,712 @@
+{
+  "levels": 100,
+  "shapes": 18,
+  "simulatedGames": 2400,
+  "cascades": 57530,
+  "unassistedWins": 1102,
+  "withFreeToolWins": 1194,
+  "gamesPerPolicy": 1200,
+  "method": "Goal-aware greedy simulation with seeded randomness; not a human win-rate estimate",
+  "byLevel": [
+    {
+      "level": 1,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 2,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 3,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 4,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 5,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 6,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 7,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 8,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 9,
+      "moves": 18,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 10,
+      "moves": 18,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 11,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 12,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 13,
+      "moves": 29,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 14,
+      "moves": 31,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 15,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 16,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 17,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 18,
+      "moves": 27,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 19,
+      "moves": 26,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 20,
+      "moves": 24,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 21,
+      "moves": 25,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 22,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 23,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 24,
+      "moves": 29,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 25,
+      "moves": 24,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 26,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 27,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 28,
+      "moves": 29,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 29,
+      "moves": 27,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 30,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 31,
+      "moves": 37,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 32,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 33,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 34,
+      "moves": 24,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 35,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 36,
+      "moves": 27,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 37,
+      "moves": 62,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 38,
+      "moves": 31,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 39,
+      "moves": 29,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 40,
+      "moves": 24,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 41,
+      "moves": 43,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 42,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 43,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 44,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 45,
+      "moves": 27,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 46,
+      "moves": 24,
+      "unassisted": 10,
+      "withFreeTools": 11,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 47,
+      "moves": 24,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 48,
+      "moves": 24,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 49,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 50,
+      "moves": 24,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 51,
+      "moves": 25,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 52,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 53,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 54,
+      "moves": 32,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 55,
+      "moves": 58,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 56,
+      "moves": 47,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 57,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 58,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 59,
+      "moves": 24,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 60,
+      "moves": 28,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 61,
+      "moves": 24,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 62,
+      "moves": 25,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 63,
+      "moves": 34,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 64,
+      "moves": 50,
+      "unassisted": 8,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 65,
+      "moves": 32,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 66,
+      "moves": 46,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 67,
+      "moves": 40,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 68,
+      "moves": 24,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 69,
+      "moves": 50,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 70,
+      "moves": 48,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 71,
+      "moves": 24,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 72,
+      "moves": 44,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 73,
+      "moves": 24,
+      "unassisted": 8,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 74,
+      "moves": 40,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 75,
+      "moves": 47,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 76,
+      "moves": 27,
+      "unassisted": 10,
+      "withFreeTools": 11,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 77,
+      "moves": 24,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 78,
+      "moves": 41,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 79,
+      "moves": 51,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 80,
+      "moves": 29,
+      "unassisted": 6,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 81,
+      "moves": 58,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 82,
+      "moves": 57,
+      "unassisted": 8,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 83,
+      "moves": 29,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 84,
+      "moves": 37,
+      "unassisted": 11,
+      "withFreeTools": 10,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 85,
+      "moves": 24,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 86,
+      "moves": 25,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 87,
+      "moves": 58,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 88,
+      "moves": 29,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 89,
+      "moves": 35,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 90,
+      "moves": 34,
+      "unassisted": 9,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 91,
+      "moves": 51,
+      "unassisted": 7,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 92,
+      "moves": 36,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 93,
+      "moves": 29,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 94,
+      "moves": 31,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 95,
+      "moves": 24,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 96,
+      "moves": 39,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 97,
+      "moves": 54,
+      "unassisted": 10,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 98,
+      "moves": 38,
+      "unassisted": 11,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 99,
+      "moves": 34,
+      "unassisted": 9,
+      "withFreeTools": 10,
+      "gamesPerPolicy": 12
+    },
+    {
+      "level": 100,
+      "moves": 35,
+      "unassisted": 12,
+      "withFreeTools": 12,
+      "gamesPerPolicy": 12
+    }
+  ]
+}
